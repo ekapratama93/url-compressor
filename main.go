@@ -65,7 +65,7 @@ func main() {
 		generatedUrl := url.URL{
 			Scheme: config.Scheme,
 			Host:   config.Host,
-			Path:   compress(requestedUrl),
+			Path:   "u/" + compress(requestedUrl),
 		}
 		return c.SendString(generatedUrl.String())
 	})
