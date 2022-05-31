@@ -29,7 +29,9 @@ func main() {
 		log.Fatal(err.Error())
 	}
 
-	app := fiber.New()
+	app := fiber.New(fiber.Config{
+		BodyLimit: 10 * 1024 * 1024,
+	})
 
 	app.Use(cache.New(cache.Config{
 		Expiration:   30 * 24 * time.Hour,
