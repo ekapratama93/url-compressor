@@ -3,7 +3,7 @@ module url-shortener
 go 1.19
 
 require (
-	github.com/andybalholm/brotli v1.0.5
+	github.com/andybalholm/brotli v1.0.6
 	github.com/asaskevich/govalidator v0.0.0-20210307081110-f21760c49a8d
 	github.com/gofiber/fiber/v2 v2.49.2
 	github.com/kelseyhightower/envconfig v1.4.0
