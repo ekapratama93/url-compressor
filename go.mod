@@ -4,7 +4,8 @@ go 1.19
 
 require (
 	github.com/andybalholm/brotli v1.0.6
-	github.com/asaskevich/govalidator v0.0.0-20210307081110-f21760c49a8d
+	github.com/asaskevich/govalidator v0.0.0-20230301143203-a9d515a09cc2
+	github.com/asaskevich/govalidator/v12 v12.0.0
 	github.com/gofiber/fiber/v2 v2.50.0
 	github.com/kelseyhightower/envconfig v1.4.0
 )
