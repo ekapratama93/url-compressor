@@ -1,6 +1,6 @@
 module url-shortener
 
-go 1.19
+go 1.24
 
 require (
 	github.com/andybalholm/brotli v1.0.6
@@ -11,7 +11,7 @@ require (
 
 require (
 	github.com/google/uuid v1.3.1 // indirect
-	github.com/klauspost/compress v1.16.7 // indirect
+	github.com/klauspost/compress v1.18.7 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.19 // indirect
 	github.com/mattn/go-runewidth v0.0.15 // indirect
